@@ -86,10 +86,7 @@ export default async function Handler(
         test_event_code: req.body.test_event_code ? req.body.test_event_code : null,
       };
       const fbGraphAPIVersion = "v19.0";
-      // const fbPixelId = 759662146057719;
       const fbPixelId = 1154218112162608;
-      // const accessToken =
-      //   "EAAwkitiYFnYBO3zGv5zDnt8UomufZAKEeycEL3ZCfz1lPISHP0qJAdsptvJHGQ3mmtZALOXLp2UzNfAjxMotXrSArBUZARm6KC8qgHKTJZAwD5ovjjGr1W3zsjyTBihkoX8yefdoQ2okVLsLBKviuRHZAtM6654ZAZC5ypv2lFp1a6aKcOJRndqRkZANT4UsWxC6nawZDZD";
       const accessToken =
       "EAAwkitiYFnYBOZBtVfSag4sbj1Hg9VA0SS5ZAqK0h1AzjFSYVzLeaJMs3sDp0Qug33xg70wtGZCa6lTF0vyjejTZBrR8LSUwpO4oac9gMWCRqVeEElctft0x2nwPxjByTD5ou3gC0g1v4JpM7UnyFQq9yvdkegZCOd3D46tzaoIrXBHPFBV21EdzFjLx2MhYWtgZDZD";
       const response = await fetch(
